@@ -1,0 +1,72 @@
+#display {
+    width: 800px;
+    border-width: 10px;
+    height: 200px;
+}
+#letterKeys{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+#doubleKeys{
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+    border: solid;
+    border-color: aqua;
+    color: blue;
+    background-color: aqua;
+}
+
+#tripleKeys{
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    border: solid;
+    background-color: coral;
+    border-color: chocolate;
+    color: chocolate;
+}
+
+#spaceKey {
+    width: 300px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: gold;
+    color: goldenrod;
+    border-color: goldenrod;
+}
+
+#quadKeys{
+    width: 120px;
+    height: 50px;
+    border-radius: 10%;
+    border: solid;
+    background-color: pink;
+    color: blueviolet;
+}
+
+#firstRow button{
+    width: 50px;
+    color: brown;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 10%;
+    border: solid;
+}
+
+#letterKeys{
+    color: green;
+    border-color: green;
+    background-color: greenyellow;
+    border: solid;
+}
+
+
+#spaceRow #letterKeys {
+    color: black;
+    border-bottom: black;
+    background-color: grey;
+    border: solid;
+}
