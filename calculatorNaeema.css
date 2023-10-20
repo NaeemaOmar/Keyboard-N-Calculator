@@ -1,0 +1,41 @@
+#display {
+    width: 203px;
+    height: 100px;
+    border: solid;
+    color:#8A2BE2;
+    background-color: #83E22B;
+    text-align: right;
+}
+
+#calculator{
+    border: solid;
+    width: 212px;
+    background-color: #8A2BE2;
+    height: 230px;
+}
+
+#keyGrid {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#numbers, #operator, #clear {
+    width: 50px;
+}
+
+#numbers {
+    color: black;
+    background-color: #8A2BE2;
+    border: solid;
+}
+
+#operator {
+    color: black;
+    background-color: #701AC0;
+    border: solid;
+}
+
+#clear {
+    color: black;
+    font-weight: bolder;
+    background-color: #83E22B;
+}
